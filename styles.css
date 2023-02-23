@@ -45,6 +45,18 @@ a, a:visited{
     color: #d8d8d8;
 }
 
+.logoContainer
+{
+    font-size: 2em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 40%;
+    background-color: rgba(43, 43, 43,60%);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
 
 .imgContainer p
 {
