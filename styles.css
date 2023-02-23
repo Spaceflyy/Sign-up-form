@@ -1,3 +1,62 @@
-h1{
-    color:red;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
 }
+body{
+    display: flex;
+    font-size: 16px;
+    height: 100vh;
+    justify-content: center;
+    background-color: rgb(27, 27, 27);
+}
+
+.mainContainer
+{
+    display: flex;
+    width: 65%;
+}
+
+.rightContainer div{
+    background-color: white;
+    height: 33.33%;
+}
+.rightContainer
+{
+    flex:2;
+}
+.imgContainer
+{
+    position: relative;
+    display: flex;
+    flex:1 0 7%;
+}
+img
+{
+
+    height: auto;
+    width: 100%;
+}
+
+a, a:visited{
+ 
+    color: #d8d8d8;
+}
+
+
+.imgContainer p
+{
+    font-size: 0.9em;
+    padding: 2px;
+    background-color: rgba(43, 43, 43, 70%);
+    color: rgb(206, 206, 206);
+    position: absolute;
+    left:0;
+    right: 0;
+    text-align: center;
+    bottom: 1%;
+}
+
+
