@@ -19,9 +19,9 @@ body{
     width: 65%;
 }
 
-.rightContainer div{
-    background-color: white;
+.rightContainer > div{
     height: 33.33%;
+    border:red solid 1px;
 }
 .rightContainer
 {
@@ -70,5 +70,27 @@ a, a:visited{
     text-align: center;
     bottom: 1%;
 }
+.formSection
+{
+    background-color: white;
+	box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2)  ; 
+}
 
+.rightContainer:last-child, .rightContainer:first-child
+{
+    background-color: rgb(235, 235, 235);
+}
+
+.rightContainer > div{
+    padding-left: 40px;
+}
+
+form{
+height: 100%;
+}
+
+label, input
+{
+    display: block;
+}
 

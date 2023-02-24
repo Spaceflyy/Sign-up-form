@@ -2,8 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href="./styles.css">
     <title>Sign-up Form</title>
 </head>
@@ -17,9 +15,46 @@
         <p>Photo by <a href="https://unsplash.com/@robsonhmorgan">Robson Hatsukami Morgan</a> on <a href="https://unsplash.com/">unsplash</a> </p>
     </div>
     <div class="rightContainer">
-        <div></div>
-        <div></div>
-        <div></div>
+        <div>Have you ever wanted to experience a culture far from your own? Sign up for the chance to experience the delicious food and deep history of Korea with an all expenses paid trip to Seoul</div>
+        <div class = "formSection">
+            <form action="" method="post">
+                <div>
+                    <label for="firstname"> First Name 
+                        <input type="text" name = "first_name" id = "firstname">
+                    </label>
+                </div>
+                <div>
+                    <label for="lastname"> Last Name
+                        <input type="text" name = "last_name"id = "lastname">
+                    </label>
+                </div>
+                <div>
+                    <label for="mail"> Email
+                        <input type="email" name ="mail_address" id="mail">
+                    </label>
+                </div>
+                <div>
+                    <label for="telenum"> Phone Number
+                        <input type="tel" name ="contact_number" id="telenum">
+                    </label>
+                </div>
+
+                <div>
+                    <label for="pass"> Password
+                        <input type="password" name ="pwrd" id="pass">
+                    </label>
+                </div>
+
+
+                <div>
+                    <label for="pass_confirm"> Confirm Password
+                        <input type="password" name ="pwrd_confirm" id="pass_confirm">
+                    </label>
+                </div>
+                    
+            </form>
+        </div>
+        <div><input type="submit" value="Create Account">Aready have an account? </div>
     </div>
 
 
