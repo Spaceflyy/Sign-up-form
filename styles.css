@@ -21,7 +21,6 @@ body{
 
 .rightContainer > div{
     height: 33.33%;
-    border:red solid 1px;
 }
 .rightContainer
 {
@@ -47,7 +46,7 @@ a, a:visited{
 
 .logoContainer
 {
-    font-size: 2em;
+    font-size: 2rem;
     position: absolute;
     left: 0;
     right: 0;
@@ -60,7 +59,7 @@ a, a:visited{
 
 .imgContainer p
 {
-    font-size: 0.9em;
+    font-size: 0.9rem;
     padding: 2px;
     background-color: rgba(43, 43, 43, 70%);
     color: rgb(206, 206, 206);
@@ -72,13 +71,39 @@ a, a:visited{
 }
 .formSection
 {
+    position: relative;
     background-color: white;
-	box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2)  ; 
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4)  ; 
 }
 
-.rightContainer:last-child, .rightContainer:first-child
+.sectionOne, .sectionThree
 {
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(235, 235, 235);   
+
+}
+
+.sectionOne
+{
+    align-items: flex-end; 
+    display: flex;
+}
+
+.sectionThree div
+{
+    padding-top: 20px;;
+}
+
+input[type="submit"]
+{
+    border: none;
+    text-decoration: none;
+    padding:10px;
+    border-radius: 5px;
+    background-color: rgb(50,85,36);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .rightContainer > div{
@@ -86,11 +111,34 @@ a, a:visited{
 }
 
 form{
-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 270px;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 70%;
 }
-
+.formSection h2
+{
+    padding-top:20px;
+}
 label, input
 {
+    width: 200px;
     display: block;
+}
+
+.heroText
+{
+    font-size: 1.1em;
+    width: 90%;
+    height: 150px;
+ 
+}
+
+.heroText h3:last-child
+{
+    margin-top: 30px;
+
 }
 
