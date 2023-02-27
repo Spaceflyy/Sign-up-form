@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel = "stylesheet" href="./styles.css">
+
     <title>Sign-up Form</title>
 </head>
 <body>
@@ -27,19 +28,19 @@
         <form id = "sign-up-form" action="#" method="post">
             <p>
                 <label for="first-name"> First name
-                    <input type="text" name ="first_name" id="first-name">
+                    <input type="text" autocomplete="given-name" name ="first_name" id="first-name">
                 </label>
             </p>
 
             <p>
                 <label for="last-name"> Last name
-                    <input type="text" name = "last_name" id="last-name">
+                    <input type="text" autocomplete="family-name" name = "last_name" id="last-name">
                 </label>
             </p>
 
             <p>
                 <label for="email-address"> Email *
-                    <input type="email" name = "email_address" id="email-address" required>
+                    <input type="email" autocomplete="username" name = "email_address" id="email-address" required>
                 </label>
             </p>
 
@@ -51,16 +52,19 @@
 
             <p>
                 <label for="password"> Password *
-                    <input type="password" name = "pwrd" id="password" required>
+                    <input type="password" maxlength = "16" name = "pwrd" id="password" autocomplete="new-password" required >
                 </label>
             </p>
 
             <p>
                 <label for="confirmPass"> Confirm Password *
-                    <input type="password" name = "confirmpwrd" id="confirmPass" required>
+                    <input type="password" maxlength = "16" name = "confirmpwrd" id="confirmPass" required>
                 </label>
             </p>
         </form>
+        <div id = "validationMessages">
+            <p id = "length"></p> <p id = "match"></p>
+        </div>
     </div>
     <div class = "sectionThree">
     <div>
@@ -68,9 +72,8 @@
         <p>Already have an account? <a href="">Log in</a> </p>
     </div>
     </div>
-
     </div>
  </div>
-
 </body>
+<script src = "./main.js"></script>
 </html>

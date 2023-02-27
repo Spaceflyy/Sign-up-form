@@ -160,3 +160,23 @@ label input:invalid
 {
     outline-color: red;
 }
+
+.invalid
+{
+    border:2px solid red;
+}
+
+#validationMessages
+{
+    display: flex;
+    flex-shrink: 0;
+    gap:55px;
+}
+
+#validationMessages p
+{
+    padding:10px 0px 0px 0px;
+    text-align: left;
+    font-size: 0.75rem;
+    min-width: 240px;
+}
