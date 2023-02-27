@@ -104,6 +104,7 @@ input[type="submit"]
     font-size: 1rem;
     font-weight: bold;
     margin-bottom: 20px;
+    width: 200px;
 }
 
 .rightContainer > div{
@@ -113,7 +114,7 @@ input[type="submit"]
 form{
     display: flex;
     flex-wrap: wrap;
-    padding-right: 270px;
+    padding-right: 200px;
     justify-content: space-between;
     align-items: flex-end;
     height: 70%;
@@ -124,8 +125,9 @@ form{
 }
 label, input
 {
-    width: 200px;
     display: block;
+    font-family: inherit;
+    font-size: 100%;
 }
 
 .heroText
@@ -136,9 +138,25 @@ label, input
  
 }
 
+label input:focus{
+    outline-color:#4284c2;
+}
+
 .heroText h3:last-child
 {
     margin-top: 30px;
 
 }
 
+label input
+{
+    border:1px solid rgba(128, 128, 128, 0.25);
+    border-radius: 5px;
+    width: 240px;
+    height:30px;
+}
+
+label input:invalid
+{
+    outline-color: red;
+}

@@ -24,7 +24,7 @@
         </div>
     <div class = "formSection">
             <h2>Lets do this!</h2>
-        <form action="" method="post">
+        <form id = "sign-up-form" action="#" method="post">
             <p>
                 <label for="first-name"> First name
                     <input type="text" name ="first_name" id="first-name">
@@ -38,33 +38,33 @@
             </p>
 
             <p>
-                <label for="email-address"> Email
-                    <input type="email" name = "email_address" id="email-address">
+                <label for="email-address"> Email *
+                    <input type="email" name = "email_address" id="email-address" required>
                 </label>
             </p>
 
             <p>
-                <label for="phone-number"> Phone Number
+                <label for="phone-number"> Phone Number (optional)
                     <input type="tel" name = "contact_Num" id="phone-number">
                 </label>
             </p>
 
             <p>
-                <label for="password"> Password
-                    <input type="password" name = "pwrd" id="password">
+                <label for="password"> Password *
+                    <input type="password" name = "pwrd" id="password" required>
                 </label>
             </p>
 
             <p>
-                <label for="confirmPass"> Confirm Password
-                    <input type="password" name = "confirmpwrd" id="confirmPass">
+                <label for="confirmPass"> Confirm Password *
+                    <input type="password" name = "confirmpwrd" id="confirmPass" required>
                 </label>
             </p>
         </form>
     </div>
     <div class = "sectionThree">
     <div>
-        <input type="submit" value = "Create Account">
+        <input type="submit" form = "sign-up-form"  value = "Create Account">
         <p>Already have an account? <a href="">Log in</a> </p>
     </div>
     </div>
