@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 *{
-    font-family: 'handlee', sans-serif;
+    font-family: 'handlee', sans-serif, Helvetica, Arial ;
     box-sizing: border-box;
     margin:0;
     padding:0;
@@ -38,7 +38,11 @@ img
     height: auto;
     width: 100%;
 }
-
+.logoContainer img
+{
+    height: auto;
+    width: auto;
+}
 a, a:visited{
  
     color: #d8d8d8;
@@ -93,6 +97,11 @@ a, a:visited{
 .sectionThree div
 {
     padding-top: 20px;;
+}
+.sectionThree a
+{
+    color: rgb(21, 124, 35);
+    font-weight: 700;
 }
 
 input[type="submit"]
