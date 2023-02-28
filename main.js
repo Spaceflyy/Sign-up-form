@@ -13,7 +13,7 @@ function passValidation()
 
     if(!passwordField.value.match(rg2))
     {
-        lengthValidation.innerHTML = "Password must be longer than 8 characters";
+        lengthValidation.innerHTML = "⚠️ Password must be longer than 8 characters";
         submitBtn.disabled = true;
 
     } else
@@ -25,13 +25,13 @@ function passValidation()
     if(passwordField.value !== confirmPasswordField.value)
     {
         confirmPasswordField.classList.add("invalid");
-        matchPasswordMsg.innerHTML = "Password do not match";
+        matchPasswordMsg.innerHTML = "⚠️ Passwords do not match";
         submitBtn.disabled = true;
     }else
     {
         confirmPasswordField.classList.remove("invalid");
         matchPasswordMsg.innerHTML = "";
-        submitBtn.disabled = false;
+        
     }
 }
 

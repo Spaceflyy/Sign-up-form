@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'handlee', sans-serif;
     box-sizing: border-box;
     margin:0;
     padding:0;
@@ -71,7 +71,9 @@ a, a:visited{
 }
 .formSection
 {
+    overflow: auto;
     position: relative;
+    height: fit-content;
     background-color: white;
 	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4)  ; 
 }
@@ -112,6 +114,7 @@ input[type="submit"]
 }
 
 form{
+
     display: flex;
     flex-wrap: wrap;
     padding-right: 200px;
@@ -128,6 +131,11 @@ label, input
     display: block;
     font-family: inherit;
     font-size: 100%;
+}
+
+label
+{
+    display:inline-block;
 }
 
 .heroText
@@ -169,8 +177,8 @@ label input:invalid
 #validationMessages
 {
     display: flex;
-    flex-shrink: 0;
-    gap:55px;
+    align-items: center;
+    gap:45px;
 }
 
 #validationMessages p
@@ -178,5 +186,5 @@ label input:invalid
     padding:10px 0px 0px 0px;
     text-align: left;
     font-size: 0.75rem;
-    min-width: 240px;
+    min-width: 250px;
 }
