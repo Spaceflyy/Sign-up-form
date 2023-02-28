@@ -28,6 +28,7 @@ body{
 }
 .imgContainer
 {
+    min-width: 300px;
     position: relative;
     display: flex;
     flex:1 0 7%;
