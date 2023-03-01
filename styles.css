@@ -74,6 +74,11 @@ a, a:visited{
     text-align: center;
     bottom: 1%;
 }
+
+.logoContainer p
+{
+    background-color: rgba(43, 43, 43, 0%);
+}
 .formSection
 {
     overflow: auto;
