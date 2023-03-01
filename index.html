@@ -19,8 +19,8 @@
     <div class="rightContainer">
         <div class = "sectionOne">
           <div class = "heroText">
-            <h3>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. </h3>
-            <h3>Sign up now to get started.</h3>
+            <h3>Experience the wonderful food, culture and sights of korea in an all expenses paid trip to the capital, Seoul! </h3>
+            <h3>Sign up now for your chance to win!</h3>
             <h3> You know <em>you </em> want to.</h3>
           </div>
         </div>
@@ -29,19 +29,19 @@
         <form id = "sign-up-form" action="#" method="post">
             <p>
                 <label for="first-name"> First name
-                    <input type="text" autocomplete="given-name" name ="first_name" id="first-name">
+                    <input type="text" autocomplete="given-name" name ="first_name" id="first-name" aria-label= "Enter first name">
                 </label>
             </p>
 
             <p>
                 <label for="last-name"> Last name
-                    <input type="text" autocomplete="family-name" name = "last_name" id="last-name">
+                    <input type="text" autocomplete="family-name" name = "last_name" id="last-name" aria-label = "Enter last name">
                 </label>
             </p>
 
             <p>
-                <label for="email-address"> Email *
-                    <input type="email" autocomplete="username" name = "email_address" id="email-address" required>
+                <label for="email-address" > Email <span aria-label = "required">*</span>
+                    <input type="email"  placeholder = "abc@example.com"autocomplete="username" name = "email_address" id="email-address" required>
                 </label>
             </p>
 
@@ -52,13 +52,13 @@
             </p>
 
             <p>
-                <label for="password"> Password *
+                <label for="password"> Password <span aria-label = "required">*</span>
                     <input type="password" maxlength = "16" name = "pwrd" id="password" autocomplete="new-password" required >
                 </label>
             </p>
 
             <p>
-                <label for="confirmPass"> Confirm Password *
+                <label for="confirmPass"> Confirm Password <span aria-label = "required">*</span>
                     <input type="password" maxlength = "16" name = "confirmpwrd" id="confirmPass"  autocomplete="new-password" required>
                 </label>
             </p>
