@@ -20,10 +20,12 @@ body{
 }
 
 .rightContainer > div{
-    height: 33.33%;
+   flex:1;
 }
 .rightContainer
 {
+    display:flex;
+    flex-direction: column;
     flex:2;
 }
 .imgContainer
