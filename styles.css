@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 *{
-    font-family: 'Fira Sans' , sans-serif, Helvetica, Arial ;
+    
     box-sizing: border-box;
     margin:0;
     padding:0;
 }
 body{
+    font-family: 'Fira Sans' , sans-serif, Helvetica, Arial ;
     display: flex;
     font-size: 16px;
     height: 100vh;
@@ -142,6 +144,11 @@ form{
 .formSection h2
 {
     padding-top:20px;
+}
+.imgContainer h2
+{
+    font-family: 'Handlee', cursive;
+
 }
 label, input
 {
